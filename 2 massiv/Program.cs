@@ -10,7 +10,7 @@ namespace _2_massiv
             int minRandomNamber = 10;
             Random random = new Random();
             int[,] matrix = new int[10,10];
-            int maxNamberInMatrix = 0 ;
+            int maxNamberInMatrix = int.MinValue;
             int namberToReplace = 0;
 
             for (int i = 0; i < matrix.GetLength(0); i++)
